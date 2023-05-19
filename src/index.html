@@ -1,17 +1,51 @@
+<!-----------
+ 
+* File: app.js
+* Author: Miklós Rajmund
+* Copyright: 2023, Miklós Rajmund
+* Group: Szoft I-2 N
+* Date: 2023.05.19.
+* Github: https://github.com/ItsChippie/Dolgozat
+* License: GNU GPL
+--------->
+ 
 <!DOCTYPE html>
 <html lang="hu">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sablon</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
+    <title>Hajók</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+ 
     <div class="container">
-        <h1>Sablon</h1>
+        <h1>Hajók</h1>
+        <table class="table table-striped">  
+            <thead>
+                <tr>
+                    <th>Név</th>
+                    <th>Hossz</th>
+                    <th>Ár</th>
+                    <th>Fő</th>
+                    <th>Traileres</th>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
     </div>
-    <script src="js/bootstrap.js"></script>
+    <div class="citatum">
+ 
+        "“Freedom will only come when you no longer trade your time for money.”" - Andrew Tate
+ 
+    </div>
+    <footer>
+        Miklós Rajmund <br>Szoft I-2 N, <br> 2023.05.19.
+    </footer>
+ 
+    <script src="bootstrap.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
